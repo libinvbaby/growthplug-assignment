@@ -81,6 +81,7 @@ background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(214,239,248,1) 
     position: relative;
     padding: 50px 20px 20px;
     height: 400px;
+    margin-bottom: 50px;
 }
 .specialites-card .icons{
     border: 1px solid #125cab;
