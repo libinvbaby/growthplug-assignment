@@ -1,0 +1,183 @@
+*{
+    font-family: "DM Serif Text", serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-item a{
+    color: #125cab;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background-color: #125cab!important;
+
+}
+
+
+.below-navbar{
+    background-color: #57bce5;
+    padding: 5px 0px;
+    
+}
+.banner{
+    background: url(./assets/bannner-1.jpg);
+    height: 70vh;
+    background-size: cover;
+}
+
+.overlay{
+    background-color: #999da28f;
+    width: 100%;
+    height: 100%;
+}
+.banner .container{
+    height: 100%;
+}
+.text-blue{
+    color: #125cab;
+}
+
+/* welcome section start */
+.welcome-section{
+    padding: 100px 0px;
+    background:url(./assets/welcome-bg.jpg);
+}
+.btn-gold{
+    background: #caa950;
+    color: #fff;
+}
+.welcome-section p{
+    color: #adacb0;
+    font-weight: 300;
+}
+/* welcome section end */
+
+/* cta strat */
+
+.cta-section{
+    margin: 50px auto;
+    background-color: #125cab!important;
+    text-align: center;
+    padding: 50px 100px;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 20px 25px -5px;
+}
+/* cta end */
+/* specialites-card */
+.specalities-section{
+    background: rgb(255,255,255);
+background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(214,239,248,1) 91%);
+    padding: 50px 0px;
+}
+.specialites-card{
+    border: 1px solid #125cab;
+    border-radius: 10px;
+    position: relative;
+    padding: 50px 20px 20px;
+    height: 400px;
+}
+.specialites-card .icons{
+    border: 1px solid #125cab;
+   position: absolute;
+   top: -50px;
+   left: 38%;
+}
+.specialites-card .content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 30px;
+}
+/* specialites-card */
+/* invisalgin start */
+.invisalgin{
+    background: url(./assets/invisalign-bg.png);
+    background-size: cover;
+    padding: 200px 0px;
+}
+.invisalgin .container div h2{
+    letter-spacing: 10px;
+    color: #fff;
+}
+/* invisalgin end */
+/* doctor section start */
+.doctor-bg{
+    background: url(./assets/dental-hospital.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.overlay-doctor{
+    border-radius: 10px;
+    background-color: #676767a3;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: inherit;
+}
+/* doctor section end */
+/* setuscard start */
+.setuscard{
+    border: 3px solid #a6a7a6;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.number{
+    background-color: #125cab;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    color:#ffff;
+}
+/* setuscard end*/
+/* reviews start */
+.reviews{
+    background: url(./assets/family.jpg);
+    padding: 50px 0px;
+   }
+.reviewcard{
+    padding: 30px 0px;
+}
+.NameBadge{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #125cab;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 20px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-20px);
+}
+table tbody tr td{
+    width: 150px;
+}
+/* reviews end*/
+
+/* footer start */
+.bg-blue-footer{
+    background-color: #125cab;
+    padding: 50px 0px;
+    margin: 20px 0px 0px 0px;
+}
+.border-footer{
+    border-bottom: 1px solid #caa950;
+}
+/* footer end */
